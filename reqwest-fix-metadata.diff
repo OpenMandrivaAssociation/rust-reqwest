@@ -1,0 +1,8 @@
+--- reqwest-0.9.24/Cargo.toml	2019-12-11T19:58:39+00:00
++++ reqwest-0.9.24/Cargo.toml	2019-12-26T06:19:05.477504+00:00
+@@ -166,5 +166,3 @@
+ rustls-tls = ["hyper-rustls", "tokio-rustls", "webpki-roots", "rustls", "tls"]
+ tls = []
+ trust-dns = ["trust-dns-resolver"]
+-[target."cfg(windows)".dependencies.winreg]
+-version = "0.6"
